@@ -48,4 +48,3 @@ AnotherFunction(X) {
 		Return ("No")
 	}
 }
-
