@@ -7,7 +7,7 @@
 	Applying compatibility settings in the AutoHotkey executable or compiled script's properties causes the OS to report a different version number, which is reflected by A_OSVersion.
 	[v1.1.20+]: If the OS version is not recognized as one of those listed above, a string in the format "major.minor.build" is returned. For example, 10.0.14393 is Windows 10 build 14393, also known as version 1607.
 
-	In short, the built in variable only gives a name, while this function gives a readable version number.
+	In short, the built in variable only gives a name to a version it recognises, while this function gives a readable version number for (most) versions.
 */
 
 ; --------------------------------------------------

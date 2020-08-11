@@ -19,7 +19,7 @@
 "".Base.IsLongerThan2	:= Func("AnotherFunction")
 
 ; --------------------------------------------------
-; Detect if a string is a function.
+; Detect if a variable is a function.
 X := 10
 Y := "Yes"
 Z := "MyFunction"
@@ -38,6 +38,7 @@ MsgBox, % A_UserName.IsLongerThan2()
 
 ; --------------------------------------------------
 ; For format, you HAVE to specify the variable index in order to add them to the formatted string.
+; It's picky that way.
 MsgBox, % "First var is: {1}`nSecond var is: {2}".f(A_UserName, A_AhkVersion)
 ExitApp, 0
 
